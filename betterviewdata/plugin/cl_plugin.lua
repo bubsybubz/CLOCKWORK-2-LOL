@@ -1,6 +1,6 @@
 local PLUGIN = PLUGIN;
 
-netstream:Hook("EditData", function(data)
+netstream.Hook("EditData", function(1, 2, 3, 4)
 	if (IsValid( data[1] )) then
 		if (Schema.dataPanel and Schema.dataPanel:IsValid()) then
 			Schema.dataPanel:Close();
