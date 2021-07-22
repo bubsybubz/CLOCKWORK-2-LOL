@@ -1,5 +1,9 @@
 local PLUGIN = PLUGIN;
 
+PLUGIN.name = "Better Viewdata";
+PLUGIN.author = "Trudeau, edited by Bubbles";
+PLUGIN.description = "Better version of /viewdata!";
+
 PLUGIN.defaultCharData = [[Age: 00
 Gender: ?
 Apartment: ?
@@ -10,5 +14,5 @@ Other Names:
 Additional Info:
 - None]];
 
-Clockwork.kernel:IncludePrefixed("sv_plugin.lua");
-Clockwork.kernel:IncludePrefixed("cl_plugin.lua");
+ix.util.Include("sv_plugin.lua");
+ix.util.Include("cl_plugin.lua");
