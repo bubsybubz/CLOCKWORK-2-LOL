@@ -1,7 +1,7 @@
 local PLUGIN = PLUGIN;
 
 PLUGIN.name = "Better Viewdata";
-PLUGIN.author = "Trudeau, edited by Bubbles";
+PLUGIN.author = "Trudeau, converted to Helix by Bubbles";
 PLUGIN.description = "Better version of /viewdata!";
 
 PLUGIN.defaultCharData = [[Age: 00
