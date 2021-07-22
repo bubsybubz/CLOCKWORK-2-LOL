@@ -1,7 +1,6 @@
 local PLUGIN = PLUGIN;
-local Clockwork = Clockwork;
 
-Clockwork.datastream:Hook("EditData", function(player, data)
+netstream:Hook("EditData", function(player, 1, 2, 3)
 	if (player.editDataAuthorised == data[1] and type( data[2] ) == "string") then
 		data[1]:SetCharacterData( "combinedata", string.sub(data[2], 0, 1024) );
 
